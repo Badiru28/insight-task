@@ -25,7 +25,9 @@ const data = {
 
 const options = {
   plugins: {
-    legend: false,
+    legend: {
+      display: false,
+    },
   },
   scales: {
     x: {
